@@ -1,67 +1,168 @@
 <!DOCTYPE html>
-<Head>
-<meta charset="utf-8">
-<title>Mindy Marmol</title>
-<link rel="stylesheet" type="text/css" href="stylesheet.css">
-</Head>
-<body>
-    <header>
-        <img src="" alt=""/>
-        <nav>
-            <a href="#">Who am I?</a>
-            <a href="#">Projects</a>
-            <a href="#">CV</a>
-            <a href="#">Get in touch</a>
-        </nav>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Mindy Marmol</title>
+    <link rel="stylesheet" type="text/css" href="stylesheet.css" />
+  </head>
+  <body>
+    <header class="navigation">
+      <nav>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#">Contact</a>
+      </nav>
     </header>
     <main>
-        <section class="about">
-        <h1>Who am I?</h2>
-        <p>Velit minim id sit adipisicing mollit labore magna id minim aute eu 
-            non anim. Aute anim sit eu voluptate. Quis id ad labore esse laborum 
-            amet. Labore sunt occaecat amet Lorem officia nulla.
-
-            Aliqua proident reprehenderit aute voluptate laborum labore magna sint 
-            sit qui nulla esse. Enim id enim enim ut est et dolore laborum aliqua ad tempor 
-            nulla tempor elit. Id id deserunt elit pariatur ex aute minim laborum qui eiusmod. 
-            Aliqua sunt do laboris ipsum sunt ea. Quis irure culpa duis veniam anim nisi velit 
-            aliquip aute et do non et. Aliquip laborum fugiat cillum cupidatat amet labore laboris 
-            am ex amet. Labore do consectetur qui ex ad labore do deserunt aute deserunt ex 
-            dolore ex occaecat.</p>
-        </section>
-        <section class="one">
-            <h2>project one name</h2>
-            <img src="#" alt="project name"/>
-        </section>
-        <section class="two">
-                <h2>project two name</h2>
-                <img src="#" alt="project name"/>
-        </section>
-        <section class="three">
-                <h2>project three name</h2>
-                <img src="#" alt="project name"/>
-        </section>
-        <section class="four">
-                <h2>project four name</h2>
-                <img src="#" alt="project name"/>
-        </section>
-        <section class="five">
-                <h2>project five name</h2>
-                <img src="#" alt="project name"/>
-        </section>
-        <section class="six">
-                <h2>project six name</h2>
-                <img src="#" alt="project name"/>     
-        </section>
-    </main>
-    <footer>
-        <nav>
-            <ul>
-                <li><a href="https://www.linkedin.com/in/mindy-marmol-21b0b884/">linkedIn</a></li>
-                <li>Copyright 2019</li>
-            </ul>
+      <section class="intro">
+        <img src="images/me3.png" alt="Mindy Marmol" />
+        <h1>Mindy Marmol</h1>
+        <p>Software Engineer</p>
+        <p>New York, NY</p>
+        <nav class="social-links">
+          <a href="https://www.linkedin.com/in/mindymarmol/" target="_blank"
+            ><i class="fab fa-linkedin icons"></i
+          ></a>
+          <a href="https://github.com/mmarmol88" target="_blank"
+            ><i class="fab fa-github icons"></i
+          ></a>
+          <a
+            href="https://drive.google.com/file/d/1RlGazrfW6JspE80m68BxccrqJ-7iB3Cr/view?usp=sharing"
+            target="_blank"
+            ><i class="far fa-file-alt icons"></i
+          ></a>
         </nav>
+      </section>
+      <a name="about">
+        <section class="about">
+          <div>
+            <h2 class="project-heading">Who am I?</h2>
+            <p>
+              My name is Mindy, a Visual Designer turned Software Engineer.
+              Excited to harness the power of technology in order to have a
+              positive impact on society. As well as looking forward to a
+              lifetime of learning and enhancing my technical and soft skills.
+            </p>
+            <br />
+            <p>Break all the things, there is no better way to learn!</p>
+          </div>
+          <div class="skills">
+            <p class="secondary-headings">Technical Skills</p>
+            <ul>
+              <li>React</li>
+              <li>JavaScript</li>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>Express</li>
+              <li>Databases</li>
+              <li>Django</li>
+              <li>Python</li>
+              <li>Bootstrap</li>
+              <li>Material-ui</li>
+            </ul>
+            <p class="secondary-headings">Soft Skills</p>
+            <ul>
+              <li>adaptable</li>
+              <li>resourceful</li>
+              <li>teamwork</li>
+              <li>organization</li>
+              <li>problem-solving</li>
+            </ul>
+          </div>
+        </section>
+      </a>
+      <a name="projects">
+        <div class="container">
+          <section>
+            <h2 class="project-heading">Projects</h2>
+            <h4 class="project-subheading">Take a look at some of my work</h4>
+          </section>
+          <section class="one">
+            <a href="https://mmarmol88.github.io/trivia-game/" target="_blank"
+              ><img src="images/trivia_screenshot.png" alt="trivia game"
+            /></a>
+            <p>Made with CSS HTML and JavaScript</p>
+            <a
+              class="repo-links"
+              href="https://github.com/mmarmol88/trivia-game"
+              target="_blank"
+              ><i class="fab fa-github" style="color:white;"></i
+              >&nbsp;&nbsp;&nbsp;&nbsp; Front-End Repo</a
+            >
+          </section>
+          <section class="two">
+            <a
+              href="https://recipe-finder-app20.herokuapp.com/recipes"
+              target="_blank"
+            >
+              <img src="images/recipe-finder.png" alt="recipe finder"
+            /></a>
+            <p>Made with React Hooks, JSX and CSS using a third-party API</p>
+            <a
+              class="repo-links"
+              href="https://github.com/mmarmol88/recipe-finder"
+              target="_blank"
+              ><i class="fab fa-github" style="color:white;"></i
+              >&nbsp;&nbsp;&nbsp;&nbsp;Front-End Repo</a
+            >
+          </section>
+          <section class="four">
+            <a href="https://forfoodsake.herokuapp.com/" target="_blank">
+              <img src="images/forfoodsake.png" alt="project name"
+            /></a>
+            <p>
+              Full-stack PERN app. Designed using PostgresQl, Express, React,
+              and Node.js
+            </p>
+            <a
+              class="repo-links"
+              href="https://github.com/mmarmol88/forfoodsake-frontend"
+              target="_blank"
+              ><i class="fab fa-github" style="color:white;"></i
+              >&nbsp;&nbsp;&nbsp;&nbsp;Front-End Repo</a
+            >
+            <a
+              class="repo-links"
+              href="https://github.com/qusaifares/forfoodsake-backend"
+              target="_blank"
+              ><i class="fab fa-github" style="color:white;"></i
+              >&nbsp;&nbsp;&nbsp;&nbsp;Back-End Repo</a
+            >
+          </section>
+          <section class="three">
+            <a href="https://pjl4.github.io/moviesFrontend/" target="_blank">
+              <img src="images/cinopsis.png" alt="project name"
+            /></a>
+            <p>
+              Full-stack MERN app. Designed using Mongo, Express, React, and
+              Node.js
+            </p>
+            <a
+              class="repo-links"
+              href="https://github.com/pjl4/moviesFrontend/"
+              target="_blank"
+              ><i class="fab fa-github" style="color:white;"></i
+              >&nbsp;&nbsp;&nbsp;&nbsp;Front-End Repo</a
+            >
+            <a
+              class="repo-links"
+              href="https://github.com/pjl4/moviesBackend/"
+              target="_blank"
+              ><i class="fab fa-github" style="color:white;"></i
+              >&nbsp;&nbsp;&nbsp;&nbsp;Back-End Repo</a
+            >
+          </section>
+        </div>
+      </a>
+    </main>
+    <footer class="footer">
+      <nav>
+        <a
+          ><i class="far fa-copyright" style="font-size:12px;color:white;"></i
+          >&nbsp;&nbsp;&nbsp;&nbsp;2019 Mindy Marmol</a
+        >
+      </nav>
     </footer>
-    
-</body>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  </body>
 </html>
